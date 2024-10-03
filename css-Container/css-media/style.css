@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.img{
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+@media (max-width:800px){ /* **valor máximo que debe tener el view port para que se aplique /sea menor a 800 */
+    body{
+        background-color: crimson;
+    }
+
+    .img{
+        width: 50%;
+        border-radius: 50%;
+    }
+}
+
+/* poner media queries al final de los estilos y el valor mayor al principio [max-width] valor menor [min- width] */
+/* 
+    **Cambiar el fondo del color
+    @media (max-width:600px){ **valor máximo que debe tener el view port para que se aplique /sea menor a 600
+        body{
+            background-color: black;
+        }
+    }
+    @media (min-width:600px ){ **valor minimo que debe tener el view port para que se aplique/ sea mayor que 600 px
+        body{
+            background-color: steelblue;
+        }
+    }
+ */
+
+/* FRONTEND MENTOR
+pagina de retos de habilidades de HTML, CSS Y JavaScript
+>>> */
